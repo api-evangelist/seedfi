@@ -1,7 +1,27 @@
 aid: seedfi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seedfi.png
 name: SeedFi
-description: SeedFi is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SeedFi was a U.S. consumer fintech that offered credit-building loans and
+  savings products (its "Credit Builder Prime" and "Borrow & Grow" plans) aimed
+  at helping financially underserved borrowers build credit history and cash
+  savings simultaneously. Backed by a16z and other investors, SeedFi was
+  acquired by Cross River Bank in 2022, and its consumer offerings were
+  subsequently folded into Credit Karma (Intuit). The seedfi.com domain now
+  302-redirects to a Credit Karma support article; SeedFi operates no
+  independent developer portal, public API, documentation, or OpenAPI surface.
+  This profile is retained as a network company record with no API to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/seedfi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,31 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: >-
+  Acquired by Cross River Bank (2022); consumer products folded into Credit
+  Karma (Intuit). seedfi.com redirects to support.creditkarma.com. No API
+  surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Lending
+- Credit Building
+- Consumer Finance
+- Savings
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
