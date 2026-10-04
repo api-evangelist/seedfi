@@ -51,7 +51,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Lending
 - Credit Building
 - Consumer Finance
@@ -66,6 +66,7 @@ tags_raw:
 - Consumer Finance
 - Savings
 - Acquired
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -79,7 +80,7 @@ x-enrichment:
   pass: local-v1
 common:
 - type: ParentCompany
-  url: https://apis.io/providers/cross-river-bank/
+  url: https://apis.io/providers/crossriver/
   name: Cross River Bank
   x-relationship: acquired
   x-evidence: "Backed by a16z and other investors, SeedFi was acquired by Cross River Bank in 2022, and its consumer offerings were subsequently folded into Credit Karma (Intuit)."
